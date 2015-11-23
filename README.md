@@ -1,5 +1,7 @@
 # Revisiting
 
+## From Wikipedia: 
+
 Fermat's little theorem states that if p is prime and 0 < a < p, then
 
 a^{p-1} == p mod{p}.
@@ -15,3 +17,6 @@ If we do pick an a such that
 a^{n-1} != pmod{n}
 then a is known as a Fermat witness for the compositeness of n.
 
+The goal of this program is to benchmark the correctness and runtime of a Fermat Primality Test
+
+Source: https://en.wikipedia.org/wiki/Fermat_primality_test
