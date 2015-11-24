@@ -1,7 +1,6 @@
 import random
 
 def is_mod_1(a, p):
-  import pdb; pdb.set_trace()
   remainder = pow(a, p-1) % p
   return remainder == 1
 
